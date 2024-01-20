@@ -8,14 +8,24 @@
 - Font weights
 
 - Line Heights
-Default: 1
+Default: 400
+
+--- 02 COLORS
+
+- Primary: #e67e22
+- Tints:
+- Shades:
+- Accents: 
+- Greys:
+
+--- 03 SHADOWS
+
+--- 04 BORDER-RADIUS
+
+--- 05 WHITESPACE
 
 - Spacing (px)
   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-  --- 02 COLORS
-
-  Primary: #e67e22
 
 */
 
