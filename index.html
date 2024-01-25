@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Omnifood</title>
   </head>
@@ -74,6 +75,24 @@
           </div>
         </div>
       </section>
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="img/logos/the-new-york-times.png"
+              alt="The New York Times logo"
+            />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/usa-today.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
       <section class="section-how">
         <div class="container">
           <span class="subheading">How it works</span>
@@ -81,11 +100,11 @@
             Your daily dose of health in 3 simple steps
           </h2>
         </div>
-        <div class="container grid grid--2-cols">
+        <div class="container grid grid--2-cols grid--center-v">
           <!-- STEP 01 -->
           <div class="step-text-box">
             <p class="step-number">01</p>
-            <h3 class="heading-terciary">
+            <h3 class="heading-tertiary">
               Tell us what you like (and what not)
             </h3>
             <p class="step-description">
@@ -112,7 +131,7 @@
           </div>
           <div class="step-text-box">
             <p class="step-number">02</p>
-            <h3 class="heading-terciary">Approve your weekly meal plan</h3>
+            <h3 class="heading-tertiary">Approve your weekly meal plan</h3>
             <p class="step-description">
               Once per week, approve the meal plan generated for you by Omnifood
               AI. You can change ingredients, swap entire meals, or even add
@@ -122,7 +141,7 @@
           <!-- STEP 03 -->
           <div class="step-text-box">
             <p class="step-number">01</p>
-            <h3 class="heading-terciary">Receive meals at convenient time</h3>
+            <h3 class="heading-tertiary">Receive meals at convenient time</h3>
             <p class="step-description">
               Best chefs in town will cook your selected meal every day, and we
               will deliver it to your door whenever works best for you. You can
@@ -138,6 +157,56 @@
           </div>
         </div>
       </section>
+      <section class="section-meals">
+        <div class="container">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">
+            Omnifood AI chooses from 5,000+ recipes
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols">
+          <div class="meal">
+            <img
+              src="img/meals/meal-1.jpg"
+              alt="Japanese Gyozas"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>650</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="meals">Meals</div>
+          <div class="list">List of diets</div>
+        </div>
+      </section>
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
