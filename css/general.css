@@ -27,9 +27,13 @@ Paragraph default: 1.6
 #fdf2e9
 #fae5d3
 #eb984e
-- Shades: #cf711f
+- Shades: 
+#cf711f
+#45260a
 - Accents: 
 - Greys: 
+#888
+#767676 (lightest grey allowed on #fff)
 #6f6f6f (lighest grey allowed on #fdf2e9)
 #555 
 #333
@@ -96,6 +100,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 
 .grid--center-v {
   align-items: center;
@@ -137,6 +144,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -146,6 +154,10 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   transition: all 0.3s;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
@@ -171,6 +183,18 @@ body {
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,
@@ -207,6 +231,11 @@ body {
   height: 3rem;
   width: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* HELPER CLASSES */
