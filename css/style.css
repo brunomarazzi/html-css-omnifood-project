@@ -20,7 +20,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -292,7 +292,7 @@
 }
 
 .testimonials-container {
-  padding: 9rem;
+  padding: 9.6rem;
 }
 
 .testimonials {
