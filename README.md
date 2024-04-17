@@ -31,5 +31,5 @@ Contribuições são bem-vindas. Sinta-se à vontade para abrir um problema ou e
 
 ## Contato
 
-- [LinkedIn](https://www.linkedin.com/in/brunomarazzi/) ![LinkedIn](https://cdn.icon-icons.com/icons2/1381/PNG/512/linkedin_94127.png)
+- [LinkedIn](https://www.linkedin.com/in/brunomarazzi/) ![LinkedIn](<ion-icon name="logo-linkedin"></ion-icon>)
 - [Instagram](https://www.instagram.com/brunomarazzi/) ![Instagram](https://cdn.icon-icons.com/icons2/2429/PNG/512/instagram_logo_icon_147122.png)
