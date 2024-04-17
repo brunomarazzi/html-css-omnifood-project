@@ -31,4 +31,4 @@ Contribuições são bem-vindas. Sinta-se à vontade para abrir um problema ou e
 
 Para mais informações sobre o curso "Build Responsive Real-World Websites with HTML and CSS" de Jonas Schmedtmann, visite [o site oficial do curso](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/).
 
-Para outras questões relacionadas a este projeto, entre em contato com [seu contato de suporte ou informações](mailto:brunomarazzidev@gmail.com).
+Para outras questões relacionadas a este projeto, entre em contato comigo via [email](mailto:brunomarazzidev@gmail.com).
